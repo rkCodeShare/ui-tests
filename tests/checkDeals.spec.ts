@@ -4,7 +4,7 @@ import { homePage } from '../pages/homepage';
 import {  } from '../pages/searchResultPage';
 
 
-test('clicking on check deals should return Featured deals.', async ({ page }) => {
+test('Check Deals : clicking on check deals should return Featured deals.', async ({ page }) => {
   const homepage = new homePage(page);
   const dealpage = new DealsPage(page);
 
